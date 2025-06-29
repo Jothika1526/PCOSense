@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442128213942",
+    "project_id": "pcos-app-firebase",
+    "storage_bucket": "pcos-app-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442128213942:android:514c644905e548739e4317",
+        "android_client_info": {
+          "package_name": "com.example.pcos_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGJpxuTim8Fzjso0-NLa_BkHSN8wB74J8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

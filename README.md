@@ -41,17 +41,50 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 ## 🌟 Key Features
 
 ### 🗓️ Intelligent Tracking & Prediction
-- PCOSense uses AI-powered cycle tracking with a visual calendar and daily symptom logging to predict periods and fertility windows.
-- Machine learning models adapt to your personal cycle patterns for more accurate and individualized predictions.
+
+* PCOSense uses **AI-powered cycle tracking** with a visual calendar and daily symptom logging to predict periods and fertility windows.
+
+* **Machine learning models** adapt to your personal cycle patterns for more accurate and individualized predictions.
 
 ### 🍏 AI-Powered Food Analysis
-- Our AI-powered food scanner instantly analyzes packaged ingredients and cooked meals for PCOS suitability.
-- It flags potential dietary concerns, recommends healthier alternatives, and uses a knowledge graph for smart nutritional insights.
+
+* Our **AI-powered food scanner** instantly analyzes packaged ingredients and cooked meals for PCOS suitability.
+
+* It flags potential dietary concerns, recommends healthier alternatives, and uses a **knowledge graph** for smart nutritional insights.
 
 ### 🧘‍♀️ Personalized Self-Care & AI Pose Matching
-- Access guided yoga and meditation routines designed to relieve specific PCOS symptoms.
-- With real-time AI pose matching, you receive instant feedback to maintain correct form and maximize health benefits.
 
+* Access guided yoga and meditation routines designed to relieve specific PCOS symptoms.
+
+* With **real-time AI pose matching**, you receive instant feedback to maintain correct form and maximize health benefits.
+
+## 📱 App Screenshots & Demos
+
+*(Maximize impact for the hackathon by replacing these placeholders with actual app screenshots and GIFs!)*
+
+### Intelligent Tracking in Action
+
+<p align="center">
+  <img src="https://placehold.co/500x280/C8E6C9/2E7D32?text=Cycle+Tracking+UI+GIF/Image" alt="Cycle Tracking UI GIF/Image"/>
+  <br>
+  <i>Intuitive cycle calendar with AI-driven predictions and easy daily logging.</i>
+</p>
+
+### AI-Powered Food Analysis Experience
+
+<p align="center">
+  <img src="https://placehold.co/500x280/FFE0B2/EF6C00?text=Food+Scanning+UI+GIF/Image" alt="Food Scanning UI GIF/Image"/>
+  <br>
+  <i>Scan packed foods or analyze cooked dishes for instant PCOS suitability.</i>
+</p>
+
+### Interactive Self-Care with AI Pose Matching
+
+<p align="center">
+  <img src="https://placehold.co/500x280/BBDEFB/1976D2?text=Pose+Matching+UI+GIF/Image" alt="Pose Matching UI GIF/Image"/>
+  <br>
+  <i>Personalized yoga and meditation with AI guidance.</i>
+</p>
 
 ## ⚙️ Backend System Visuals
 
@@ -115,7 +148,7 @@ To get PCOSense up and running locally, follow these steps:
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/yourusername/PCOSense.git](https://github.com/yourusername/PCOSense.git)
+git clone [https://github.com/Jothika1526/PCOSense](https://github.com/Jothika1526/PCOSense.git)
 cd PCOSense
 ```
 
@@ -141,10 +174,8 @@ uvicorn main:app --reload
 
 ### Frontend Setup (Flutter)
 
-Navigate to the `frontend_flutter_app` directory:
-
 ```bash
-cd frontend_flutter_app
+cd PCOSense
 ```
 
 Get the Flutter project dependencies:
@@ -159,28 +190,16 @@ Run the Flutter app on your connected device or emulator:
 flutter run
 ```
 
-## 💡 Usage
+## ✉️ Contact
 
-1.  **Sign Up/Login:** Create your secure account or log in.
-2.  **Onboarding:** Provide initial details about your PCOS journey.
-3.  **Cycle Tracking:** View your predicted cycle on the calendar and log daily activities.
-4.  **Daily Log:** Record mood, fertility signs, period flow, symptoms, and notes.
-5.  **Self-Care:** Select symptoms and access guided meditation/yoga exercises with real-time pose matching feedback.
-6.  **Food Scanning:**
-    * **Packed Food:** Scan ingredient lists for PCOS suitability and alternatives.
-    * **Cooked Food:** Enter dish names and upload images for a detailed PCOS impact analysis.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/PCOSense/blob/main/LICENSE) file for details.
+For any inquiries or feedback, please reach out to the team:
 
 ## 👥 Team Members
 
 * **[Jothika K](https://github.com/Jothika1526)**
 * **[Namithaa V](https://github.com/github0710)**
 * **[Akhilesh Mohanasundaram](https://github.com/Akhilesh-Mohanasundaram)**
-* **[Swathiga](https://github.com/swathiga-dummy)**
-
+* **[Swathiga](https://github.com/swathiga-dummy)** 
 
 ## 🙏 Acknowledgements
 

@@ -31,7 +31,7 @@
 ## ✨ About PCOSense: Your Journey, Empowered by AI ✨
 
 <p align="center">
-  <img src="https://placehold.co/200x100/A7FFEB/00BFA5?text=Your+App+Logo+GIF+Here" alt="PCOSense App Logo GIF"/>
+  <img src="images/giphy.gif" alt="PCOSense App Logo GIF"/>
   <br>
   <i>Transforming PCOS management with intelligence and empathy.</i>
 </p>
@@ -60,7 +60,6 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 ## 📱 App Screenshots & Demos
 
-*(Maximize impact for the hackathon by replacing these placeholders with actual app screenshots and GIFs!)*
 
 ### Intelligent Tracking in Action
 
@@ -87,8 +86,6 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 </p>
 
 ## ⚙️ Backend System Visuals
-
-*(Include diagrams or simplified visual representations of your backend components here, e.g., Firebase data structure, Neo4j graph, MongoDB collection overview, etc. This helps show the depth of your technical implementation.)*
 
 <p align="center">
   <img src="https://placehold.co/600x300/D1C4E9/512DA8?text=Firebase+Data+Flow+Diagram" alt="Firebase Data Flow Diagram"/>

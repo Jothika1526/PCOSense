@@ -190,10 +190,6 @@ Run the Flutter app on your connected device or emulator:
 flutter run
 ```
 
-## ✉️ Contact
-
-For any inquiries or feedback, please reach out to the team:
-
 ## 👥 Team Members
 
 * **[Jothika K](https://github.com/Jothika1526)**

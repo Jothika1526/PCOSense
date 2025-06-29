@@ -40,47 +40,18 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 ## 🌟 Key Features
 
-PCOSense delivers impact with three core, AI-powered features:
-
 ### 🗓️ Intelligent Tracking & Prediction
-
-* **AI-powered cycle tracking** provides a visual calendar and daily log for precise prediction of period and fertility windows. Our **machine learning models** continuously learn from your logged symptoms to refine predictions, adapting to your unique cycle.
+- PCOSense uses AI-powered cycle tracking with a visual calendar and daily symptom logging to predict periods and fertility windows.
+- Machine learning models adapt to your personal cycle patterns for more accurate and individualized predictions.
 
 ### 🍏 AI-Powered Food Analysis
-
-* **AI-Powered Food Scanner & Analyzer:** Instantly scan packed food ingredients and analyze cooked dishes for PCOS suitability. Our **AI** flags potential concerns, suggests healthier alternatives, and provides comprehensive dietary insights powered by **knowledge graph integration**.
+- Our AI-powered food scanner instantly analyzes packaged ingredients and cooked meals for PCOS suitability.
+- It flags potential dietary concerns, recommends healthier alternatives, and uses a knowledge graph for smart nutritional insights.
 
 ### 🧘‍♀️ Personalized Self-Care & AI Pose Matching
+- Access guided yoga and meditation routines designed to relieve specific PCOS symptoms.
+- With real-time AI pose matching, you receive instant feedback to maintain correct form and maximize health benefits.
 
-* Access **AI-enhanced guided meditation and yoga routines** tailored to alleviate specific PCOS symptoms. Our **AI-powered real-time pose matching** provides instant feedback to ensure correct form during exercises, maximizing therapeutic benefits.
-
-## 📱 App Screenshots & Demos
-
-*(Maximize impact for the hackathon by replacing these placeholders with actual app screenshots and GIFs!)*
-
-### Intelligent Tracking in Action
-
-<p align="center">
-  <img src="https://placehold.co/500x280/C8E6C9/2E7D32?text=Cycle+Tracking+UI+GIF/Image" alt="Cycle Tracking UI GIF/Image"/>
-  <br>
-  <i>Intuitive cycle calendar with AI-driven predictions and easy daily logging.</i>
-</p>
-
-### AI-Powered Food Analysis Experience
-
-<p align="center">
-  <img src="https://placehold.co/500x280/FFE0B2/EF6C00?text=Food+Scanning+UI+GIF/Image" alt="Food Scanning UI GIF/Image"/>
-  <br>
-  <i>Scan packed foods or analyze cooked dishes for instant PCOS suitability.</i>
-</p>
-
-### Interactive Self-Care with AI Pose Matching
-
-<p align="center">
-  <img src="https://placehold.co/500x280/BBDEFB/1976D2?text=Pose+Matching+UI+GIF/Image" alt="Pose Matching UI GIF/Image"/>
-  <br>
-  <i>Personalized yoga and meditation with AI guidance.</i>
-</p>
 
 ## ⚙️ Backend System Visuals
 

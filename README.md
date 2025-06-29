@@ -1,16 +1,216 @@
-# pcos_app
+# PCOSense: Your Intelligent PCOS Companion
 
-PCOS application for women
+## Table of Contents
 
-## Getting Started
+* [✨ About PCOSense](#-about-pcosense)
 
-This project is a starting point for a Flutter application.
+* [🌟 Key Features](#-key-features)
 
-A few resources to get you started if this is your first Flutter project:
+* [📱 App Screenshots & Demos](#-app-screenshots--demos)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* [⚙️ Backend System Visuals](#️-backend-system-visuals)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* [🏗️ Architecture Overview](#️-architecture-overview)
+
+* [💻 Technology Stack](#-technology-stack)
+
+* [🚀 Setup and Installation](#-setup-and-installation)
+
+* [💡 Usage](#-usage)
+
+* [📜 License](#-license)
+
+* [✉️ Contact](#️-contact)
+
+* [👥 Team Members](#-team-members)
+
+* [🙏 Acknowledgements](#-acknowledgements)
+
+---
+
+## ✨ About PCOSense: Your Journey, Empowered by AI ✨
+
+<p align="center">
+  <img src="https://placehold.co/200x100/A7FFEB/00BFA5?text=Your+App+Logo+GIF+Here" alt="PCOSense App Logo GIF"/>
+  <br>
+  <i>Transforming PCOS management with intelligence and empathy.</i>
+</p>
+
+PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven tracking**, **personalized self-care**, and **intelligent dietary insights** to empower women in understanding their bodies, managing symptoms, and making informed lifestyle choices. Our mission is to transform the PCOS journey into a structured, supportive, and data-driven experience.
+
+## 🌟 Key Features
+
+PCOSense delivers impact with three core, AI-powered features:
+
+### 🗓️ Intelligent Tracking & Prediction
+
+* **AI-powered cycle tracking** provides a visual calendar and daily log for precise prediction of period and fertility windows. Our **machine learning models** continuously learn from your logged symptoms to refine predictions, adapting to your unique cycle.
+
+### 🍏 AI-Powered Food Analysis
+
+* **AI-Powered Food Scanner & Analyzer:** Instantly scan packed food ingredients and analyze cooked dishes for PCOS suitability. Our **AI** flags potential concerns, suggests healthier alternatives, and provides comprehensive dietary insights powered by **knowledge graph integration**.
+
+### 🧘‍♀️ Personalized Self-Care & AI Pose Matching
+
+* Access **AI-enhanced guided meditation and yoga routines** tailored to alleviate specific PCOS symptoms. Our **AI-powered real-time pose matching** provides instant feedback to ensure correct form during exercises, maximizing therapeutic benefits.
+
+## 📱 App Screenshots & Demos
+
+*(Maximize impact for the hackathon by replacing these placeholders with actual app screenshots and GIFs!)*
+
+### Intelligent Tracking in Action
+
+<p align="center">
+  <img src="https://placehold.co/500x280/C8E6C9/2E7D32?text=Cycle+Tracking+UI+GIF/Image" alt="Cycle Tracking UI GIF/Image"/>
+  <br>
+  <i>Intuitive cycle calendar with AI-driven predictions and easy daily logging.</i>
+</p>
+
+### AI-Powered Food Analysis Experience
+
+<p align="center">
+  <img src="https://placehold.co/500x280/FFE0B2/EF6C00?text=Food+Scanning+UI+GIF/Image" alt="Food Scanning UI GIF/Image"/>
+  <br>
+  <i>Scan packed foods or analyze cooked dishes for instant PCOS suitability.</i>
+</p>
+
+### Interactive Self-Care with AI Pose Matching
+
+<p align="center">
+  <img src="https://placehold.co/500x280/BBDEFB/1976D2?text=Pose+Matching+UI+GIF/Image" alt="Pose Matching UI GIF/Image"/>
+  <br>
+  <i>Personalized yoga and meditation with AI guidance.</i>
+</p>
+
+## ⚙️ Backend System Visuals
+
+*(Include diagrams or simplified visual representations of your backend components here, e.g., Firebase data structure, Neo4j graph, MongoDB collection overview, etc. This helps show the depth of your technical implementation.)*
+
+<p align="center">
+  <img src="https://placehold.co/600x300/D1C4E9/512DA8?text=Firebase+Data+Flow+Diagram" alt="Firebase Data Flow Diagram"/>
+  <br>
+  <i>Visualizing user authentication and data storage with Firebase.</i>
+</p>
+
+<p align="center">
+  <img src="https://placehold.co/600x300/F0F4C3/AFB42B?text=Neo4j+Knowledge+Graph+Example" alt="Neo4j Knowledge Graph Example"/>
+  <br>
+  <i>A glimpse into the Neo4j knowledge graph structure for food insights.</i>
+</p>
+
+<p align="center">
+  <img src="https://placehold.co/600x300/E0F2F7/00838F?text=MongoDB+Atlas+Storage+Concept" alt="MongoDB Atlas Storage Concept"/>
+  <br>
+  <i>Overview of image storage in MongoDB Atlas.</i>
+</p>
+
+## 🏗️ Architecture Overview
+
+<p align="center">
+  <img src="https://placehold.co/800x400/D1C4E9/512DA8?text=Your+Architecture+Diagram+Here" alt="PCOSense Architecture Diagram"/>
+  <br>
+  <i>A high-level overview of the PCOSense application architecture.</i>
+</p>
+
+## 💻 Technology Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart Badge"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI Badge"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Badge"/>
+  <img src="https://img.shields.io/badge/MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Atlas Badge"/>
+  <img src="https://img.shields.io/badge/Neo4j-458BCA?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j Badge"/>
+  <img src="https://img.shields.io/badge/ChromaDB-6C6C6C?style=for-the-badge&logo=chroma&logoColor=white" alt="ChromaDB Badge"/>
+  <img src="https://img.shields.io/badge/Google%20ML%20Kit-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google ML Kit Badge"/>
+  <img src="https://img.shields.io/badge/Google%20Custom%20Search-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Custom Search Badge"/>
+  <img src="https://img.shields.io/badge/ScraperAPI-3D96D2?style=for-the-badge&logo=data-transfer&logoColor=white" alt="ScraperAPI Badge"/>
+  <img src="https://img.shields.io/badge/BeautifulSoup-0288D1?style=for-the-badge&logo=python&logoColor=white" alt="BeautifulSoup Badge"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD43B?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Badge"/>
+  <img src="https://img.shields.io/badge/Gemini%20API-FF6F00?style=for-the-badge&logo=google&logoColor=white" alt="Gemini API Badge"/>
+  <img src="https://img.shields.io/badge/Ollama-black?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama Badge"/>
+</p>
+
+## 🚀 Setup and Installation
+
+To get PCOSense up and running locally, follow these steps:
+
+### Prerequisites
+
+* **Flutter SDK** (v3.27.1 stable)
+* **Dart SDK** (v3.6.0)
+* **Python** (v3.9 or higher)
+
+### Clone the Repository
+
+```bash
+git clone [https://github.com/yourusername/PCOSense.git](https://github.com/yourusername/PCOSense.git)
+cd PCOSense
+```
+
+### Backend Setup (FastAPI)
+
+Navigate to the `backend` directory:
+
+```bash
+cd backend
+```
+
+Install the required Python packages using the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the FastAPI server:
+
+```bash
+uvicorn main:app --reload
+```
+
+### Frontend Setup (Flutter)
+
+Navigate to the `frontend_flutter_app` directory:
+
+```bash
+cd frontend_flutter_app
+```
+
+Get the Flutter project dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the Flutter app on your connected device or emulator:
+
+```bash
+flutter run
+```
+
+## 💡 Usage
+
+1.  **Sign Up/Login:** Create your secure account or log in.
+2.  **Onboarding:** Provide initial details about your PCOS journey.
+3.  **Cycle Tracking:** View your predicted cycle on the calendar and log daily activities.
+4.  **Daily Log:** Record mood, fertility signs, period flow, symptoms, and notes.
+5.  **Self-Care:** Select symptoms and access guided meditation/yoga exercises with real-time pose matching feedback.
+6.  **Food Scanning:**
+    * **Packed Food:** Scan ingredient lists for PCOS suitability and alternatives.
+    * **Cooked Food:** Enter dish names and upload images for a detailed PCOS impact analysis.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/PCOSense/blob/main/LICENSE) file for details.
+
+## 👥 Team Members
+
+* **[Jothika K](https://github.com/Jothika1526)**
+* **[Namithaa V](https://github.com/github0710)**
+* **[Akhilesh Mohanasundaram](https://github.com/Akhilesh-Mohanasundaram)**
+* **[Swathiga](https://github.com/swathiga-dummy)**
+
+
+## 🙏 Acknowledgements
+
+* Thanks to the **Launch4Hacks organizers** for providing the incredible opportunity to build PCOSense and fostering innovation!

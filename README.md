@@ -54,30 +54,104 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 ## 📱 App Screenshots & Demos
 
+### Initial App Flow
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/1.jpg" alt="Splash Screen" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Our captivating splash screen.</i>
+  </div>
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/2.jpg" alt="Login Screen" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Secure and user-friendly login interface.</i>
+  </div>
+</div>
+
+---
+
+### Onboarding Experience
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/4.jpg" alt="Onboarding Screen 1" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Personalized onboarding to tailor your experience.</i>
+  </div>
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/5.jpg" alt="Onboarding Screen 2" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Setting up your profile for intelligent insights.</i>
+  </div>
+</div>
+
+---
 
 ### Intelligent Tracking in Action
 
-<p align="center">
-  <img src="https://placehold.co/500x280/C8E6C9/2E7D32?text=Cycle+Tracking+UI+GIF/Image" alt="Cycle Tracking UI GIF/Image"/>
-  <br>
-  <i>Intuitive cycle calendar with AI-driven predictions and easy daily logging.</i>
-</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/6.jpg" alt="Cycle Tracking UI" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Intuitive cycle calendar with AI-driven predictions and easy daily logging.</i>
+  </div>
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/7.jpg" alt="Detailed Tracking View" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Dive deeper into your cycle patterns and symptoms.</i>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/9.jpg" alt="Symptom Logging" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Comprehensive logging for accurate symptom analysis.</i>
+  </div>
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/12.jpg" alt="Prediction Overview" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>AI-powered predictions at a glance.</i>
+  </div>
+</div>
+
+---
 
 ### AI-Powered Food Analysis Experience
 
-<p align="center">
-  <img src="https://placehold.co/500x280/FFE0B2/EF6C00?text=Food+Scanning+UI+GIF/Image" alt="Food Scanning UI GIF/Image"/>
-  <br>
-  <i>Scan packed foods or analyze cooked dishes for instant PCOS suitability.</i>
-</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="https://placehold.co/500x280/FFE0B2/EF6C00?text=Food+Scanning+UI+GIF/Image" alt="Food Scanning UI GIF/Image" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Scan packaged foods or analyze cooked dishes for instant PCOS suitability.</i>
+  </div>
+</div>
+
+---
 
 ### Interactive Self-Care with AI Pose Matching
 
-<p align="center">
-  <img src="https://placehold.co/500x280/BBDEFB/1976D2?text=Pose+Matching+UI+GIF/Image" alt="Pose Matching UI GIF/Image"/>
-  <br>
-  <i>Personalized yoga and meditation with AI guidance.</i>
-</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/13.jpg" alt="Self-Care Dashboard" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Your personalized hub for well-being.</i>
+  </div>
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/14.jpg" alt="Yoga Routine Selection" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Choose from a variety of guided yoga routines.</i>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/18.png" alt="AI Pose Matching in Action" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Real-time feedback for perfect form.</i>
+  </div>
+</div>
 
 ## ⚙️ Backend System Visuals
 
@@ -102,7 +176,7 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 ## 🏗️ Architecture Overview
 
 <p align="center">
-  <img src="https://placehold.co/800x400/D1C4E9/512DA8?text=Your+Architecture+Diagram+Here" alt="PCOSense Architecture Diagram"/>
+  <img src="images/PCOSense.png" alt="PCOSense Architecture Diagram"/>
   <br>
   <i>A high-level overview of the PCOSense application architecture.</i>
 </p>
@@ -186,7 +260,7 @@ flutter run
 * **[Jothika K](https://github.com/Jothika1526)**
 * **[Namithaa V](https://github.com/github0710)**
 * **[Akhilesh Mohanasundaram](https://github.com/Akhilesh-Mohanasundaram)**
-* **[Swathiga](https://github.com/swathiga-dummy)** 
+* Swathiga
 
 ## 🙏 Acknowledgements
 

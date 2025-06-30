@@ -16,10 +16,6 @@
 
 * [🚀 Setup and Installation](#-setup-and-installation)
 
-* [💡 Usage](#-usage)
-
-* [✉️ Contact](#️-contact)
-
 * [👥 Team Members](#-team-members)
 
 * [🙏 Acknowledgements](#-acknowledgements)

@@ -18,8 +18,6 @@
 
 * [💡 Usage](#-usage)
 
-* [📜 License](#-license)
-
 * [✉️ Contact](#️-contact)
 
 * [👥 Team Members](#-team-members)
@@ -88,15 +86,15 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 ## ⚙️ Backend System Visuals
 
 <p align="center">
-  <img src="https://placehold.co/600x300/D1C4E9/512DA8?text=Firebase+Data+Flow+Diagram" alt="Firebase Data Flow Diagram"/>
+  <img src="images/backend/firebase.png"/>
   <br>
-  <i>Visualizing user authentication and data storage with Firebase.</i>
+  <i>User authentication and data storage with Firebase.</i>
 </p>
 
 <p align="center">
   <img src="https://placehold.co/600x300/F0F4C3/AFB42B?text=Neo4j+Knowledge+Graph+Example" alt="Neo4j Knowledge Graph Example"/>
   <br>
-  <i>A glimpse into the Neo4j knowledge graph structure for food insights.</i>
+  <i>Neo4j knowledge graph structure for food insights.</i>
 </p>
 
 <p align="center">

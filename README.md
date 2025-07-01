@@ -58,12 +58,12 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/1.jpg" alt="Splash Screen" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/1.jpg" alt="Splash Screen" width="180"/>
     <br>
     <i>Our captivating splash screen.</i>
   </div>
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/2.jpg" alt="Login Screen" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/2.jpg" alt="Login Screen" width="180"/>
     <br>
     <i>Secure and user-friendly login interface.</i>
   </div>
@@ -75,12 +75,12 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/4.jpg" alt="Onboarding Screen 1" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/4.jpg" alt="Onboarding Screen 1" width="180"/>
     <br>
     <i>Personalized onboarding to tailor your experience.</i>
   </div>
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/5.jpg" alt="Onboarding Screen 2" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/5.jpg" alt="Onboarding Screen 2" width="180"/>
     <br>
     <i>Setting up your profile for intelligent insights.</i>
   </div>
@@ -92,12 +92,12 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/6.jpg" alt="Cycle Tracking UI" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/6.jpg" alt="Cycle Tracking UI" width="180"/>
     <br>
     <i>Intuitive cycle calendar with AI-driven predictions and easy daily logging.</i>
   </div>
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/7.jpg" alt="Detailed Tracking View" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/7.jpg" alt="Detailed Tracking View" width="180"/>
     <br>
     <i>Dive deeper into your cycle patterns and symptoms.</i>
   </div>
@@ -105,12 +105,12 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/9.jpg" alt="Symptom Logging" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/9.jpg" alt="Symptom Logging" width="180"/>
     <br>
     <i>Comprehensive logging for accurate symptom analysis.</i>
   </div>
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/12.jpg" alt="Prediction Overview" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/12.jpg" alt="Prediction Overview" width="180"/>
     <br>
     <i>AI-powered predictions at a glance.</i>
   </div>
@@ -125,18 +125,17 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/o1.jpg" alt="Cooked Meal Scan 1" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/o1.jpg" alt="Cooked Meal Scan 1" width="180"/>
     <br>
     <i>Analyzing a home-cooked meal for PCOS suitability.</i>
   </div>
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/o2.jpg" alt="Cooked Meal Scan 2" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/o2.jpg" alt="Cooked Meal Scan 2" width="180"/>
     <br>
     <i>Detailed breakdown of nutritional components.</i>
   </div>
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/o3.jpg" alt="Cooked Meal Scan 2" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
-    <br>
+    <img src="images/o3.jpg" alt="Cooked Meal Scan 3" width="180"/>
   </div>
 </div>
 
@@ -146,12 +145,12 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/f1.jpg" alt="Packed Food Scan 1" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/f1.jpg" alt="Packed Food Scan 1" width="180"/>
     <br>
     <i>Scanning the label of a packaged food item.</i>
   </div>
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/f2.jpg" alt="Packed Food Scan 2" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/f2.jpg" alt="Packed Food Scan 2" width="180"/>
     <br>
     <i>Instant analysis for potential dietary concerns.</i>
   </div>
@@ -159,21 +158,22 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/f3.jpg" alt="Packed Food Scan 3" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/f3.jpg" alt="Packed Food Scan 3" width="180"/>
   </div>
 </div>
+
 ---
 
 ### Interactive Self-Care with AI Pose Matching
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/13.jpg" alt="Self-Care Dashboard" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/13.jpg" alt="Self-Care Dashboard" width="180"/>
     <br>
     <i>Your personalized hub for well-being.</i>
   </div>
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/14.jpg" alt="Yoga Routine Selection" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/14.jpg" alt="Yoga Routine Selection" width="180"/>
     <br>
     <i>Choose from a variety of guided yoga routines.</i>
   </div>
@@ -181,7 +181,7 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/18.png" alt="AI Pose Matching in Action" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/18.png" alt="AI Pose Matching in Action" width="180"/>
     <br>
     <i>Real-time feedback for perfect form.</i>
   </div>

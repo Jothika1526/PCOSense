@@ -56,136 +56,129 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 ### Initial App Flow
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/1.jpg" alt="Splash Screen" width="180"/>
-    <br>
-    <i>Our captivating splash screen.</i>
-  </div>
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/2.jpg" alt="Login Screen" width="180"/>
-    <br>
-    <i>Secure and user-friendly login interface.</i>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/1.jpg" alt="Splash Screen" width="180"/><br>
+      <i>Our captivating splash screen.</i>
+    </td>
+    <td align="center">
+      <img src="images/2.jpg" alt="Login Screen" width="180"/><br>
+      <i>Secure and user-friendly login interface.</i>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### Onboarding Experience
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/4.jpg" alt="Onboarding Screen 1" width="180"/>
-    <br>
-    <i>Personalized onboarding to tailor your experience.</i>
-  </div>
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/5.jpg" alt="Onboarding Screen 2" width="180"/>
-    <br>
-    <i>Setting up your profile for intelligent insights.</i>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/4.jpg" alt="Onboarding Screen 1" width="180"/><br>
+      <i>Personalized onboarding to tailor your experience.</i>
+    </td>
+    <td align="center">
+      <img src="images/5.jpg" alt="Onboarding Screen 2" width="180"/><br>
+      <i>Setting up your profile for intelligent insights.</i>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### Intelligent Tracking in Action
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/6.jpg" alt="Cycle Tracking UI" width="180"/>
-    <br>
-    <i>Intuitive cycle calendar with AI-driven predictions and easy daily logging.</i>
-  </div>
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/7.jpg" alt="Detailed Tracking View" width="180"/>
-    <br>
-    <i>Dive deeper into your cycle patterns and symptoms.</i>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/6.jpg" alt="Cycle Tracking UI" width="180"/><br>
+      <i>Intuitive cycle calendar with AI-driven predictions and easy daily logging.</i>
+    </td>
+    <td align="center">
+      <img src="images/7.jpg" alt="Detailed Tracking View" width="180"/><br>
+      <i>Dive deeper into your cycle patterns and symptoms.</i>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/9.jpg" alt="Symptom Logging" width="180"/><br>
+      <i>Comprehensive logging for accurate symptom analysis.</i>
+    </td>
+    <td align="center">
+      <img src="images/12.jpg" alt="Prediction Overview" width="180"/><br>
+      <i>AI-powered predictions at a glance.</i>
+    </td>
+  </tr>
+</table>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/9.jpg" alt="Symptom Logging" width="180"/>
-    <br>
-    <i>Comprehensive logging for accurate symptom analysis.</i>
-  </div>
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/12.jpg" alt="Prediction Overview" width="180"/>
-    <br>
-    <i>AI-powered predictions at a glance.</i>
-  </div>
-</div>
-
----
 ---
 
 ### AI-Powered Food Analysis
 
 #### Cooked Food Analysis
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/o1.jpg" alt="Cooked Meal Scan 1" width="180"/>
-    <br>
-    <i>Analyzing a home-cooked meal for PCOS suitability.</i>
-  </div>
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/o2.jpg" alt="Cooked Meal Scan 2" width="180"/>
-    <br>
-    <i>Detailed breakdown of nutritional components.</i>
-  </div>
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/o3.jpg" alt="Cooked Meal Scan 3" width="180"/>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/o1.jpg" alt="Cooked Meal Scan 1" width="180"/><br>
+      <i>Analyzing a home-cooked meal for PCOS suitability.</i>
+    </td>
+    <td align="center">
+      <img src="images/o2.jpg" alt="Cooked Meal Scan 2" width="180"/><br>
+      <i>Detailed breakdown of nutritional components.</i>
+    </td>
+    <td align="center">
+      <img src="images/o3.jpg" alt="Cooked Meal Scan 3" width="180"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
 #### Packed Food Analysis
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/f1.jpg" alt="Packed Food Scan 1" width="180"/>
-    <br>
-    <i>Scanning the label of a packaged food item.</i>
-  </div>
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/f2.jpg" alt="Packed Food Scan 2" width="180"/>
-    <br>
-    <i>Instant analysis for potential dietary concerns.</i>
-  </div>
-</div>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/f3.jpg" alt="Packed Food Scan 3" width="180"/>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/f1.jpg" alt="Packed Food Scan 1" width="180"/><br>
+      <i>Scanning the label of a packaged food item.</i>
+    </td>
+    <td align="center">
+      <img src="images/f2.jpg" alt="Packed Food Scan 2" width="180"/><br>
+      <i>Instant analysis for potential dietary concerns.</i>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="images/f3.jpg" alt="Packed Food Scan 3" width="180"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### Interactive Self-Care with AI Pose Matching
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/13.jpg" alt="Self-Care Dashboard" width="180"/>
-    <br>
-    <i>Your personalized hub for well-being.</i>
-  </div>
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/14.jpg" alt="Yoga Routine Selection" width="180"/>
-    <br>
-    <i>Choose from a variety of guided yoga routines.</i>
-  </div>
-</div>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
-  <div style="text-align: center; flex: 1 1 48%;">
-    <img src="images/18.png" alt="AI Pose Matching in Action" width="180"/>
-    <br>
-    <i>Real-time feedback for perfect form.</i>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/13.jpg" alt="Self-Care Dashboard" width="180"/><br>
+      <i>Your personalized hub for well-being.</i>
+    </td>
+    <td align="center">
+      <img src="images/14.jpg" alt="Yoga Routine Selection" width="180"/><br>
+      <i>Choose from a variety of guided yoga routines.</i>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="images/18.png" alt="AI Pose Matching in Action" width="180"/><br>
+      <i>Real-time feedback for perfect form.</i>
+    </td>
+  </tr>
+</table>
 
 ## ⚙️ Backend System Visuals
 

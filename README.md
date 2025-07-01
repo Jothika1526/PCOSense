@@ -287,7 +287,6 @@ flutter run
 * **[Jothika K](https://github.com/Jothika1526)**
 * **[Namithaa V](https://github.com/github0710)**
 * **[Akhilesh Mohanasundaram](https://github.com/Akhilesh-Mohanasundaram)**
-* Swathiga
 
 ## 🙏 Acknowledgements
 

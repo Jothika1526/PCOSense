@@ -7,6 +7,8 @@ import 'guide_run_screen.dart';
 import 'package:pcos_app/screens/home_screen.dart'; // To navigate back to Home
 import 'package:pcos_app/screens/daily_log_screen.dart'; // Import for DailyLogScreen
 import 'package:pcos_app/screens/symptom_selection_screen.dart'; // To navigate back to Symptom Selection
+import 'package:pcos_app/packed_food/pack_foods_scan.dart'; // Import your food scanner screen
+import 'package:pcos_app/food_options/food_options_screen.dart';
 
 class GuideListScreen extends StatefulWidget {
   final String symptom;
@@ -246,45 +248,7 @@ class _GuideListScreenState extends State<GuideListScreen> {
           },
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) => const DailyLogScreen(),
-            ),
-          );
-        },
-        tooltip: 'Log Data',
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        child: Material(
-          elevation: 8.0,
-          borderRadius: BorderRadius.circular(50),
-          color: Colors.transparent,
-          shadowColor: const Color(0xFF8A2BE2),
-          child: Ink(
-            decoration: BoxDecoration(
-              gradient: const LinearGradient(
-                colors: [Color(0xFFD3A4F4), Color(0xFF8A2BE2)],
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-              ),
-              borderRadius: BorderRadius.circular(50),
-            ),
-            child: const Center(
-              child: Icon(
-                Icons.add,
-                color: Colors.white,
-                size: 36,
-              ),
-            ),
-          ),
-        ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        notchMargin: 8.0,
         color: const Color(0xFFFFFFFF), // Changed to white
         elevation: 10,
         child: Row(
@@ -299,7 +263,17 @@ class _GuideListScreenState extends State<GuideListScreen> {
                 );
               },
             ),
-            const SizedBox(width: 48), // Spacer for the FAB
+            IconButton(
+              icon: Icon(Icons.restaurant_menu, color: Colors.grey.shade600, size: 28), // Changed to a general food icon
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const FoodOptionsScreen(), // Navigate to the new FoodOptionsScreen
+                  ),
+                );
+              },
+            ),
+            // No Spacer needed as there's no FAB
             IconButton(
               icon: Icon(Icons.self_improvement, color: colorScheme.primary, size: 28), // Meditation/Symptom icon selected
               onPressed: () {

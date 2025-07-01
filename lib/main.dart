@@ -9,7 +9,8 @@ import 'firebase_options.dart';
 // Import your screens
 import 'package:pcos_app/screens/login_screen.dart';
 import 'package:pcos_app/screens/home_screen.dart';
-import 'package:pcos_app/screens/onboarding_screen.dart'; // Make sure this is imported
+import 'package:pcos_app/screens/onboarding_screen.dart';
+import 'package:pcos_app/screens/splash_screen.dart'; // Import the SplashScreen
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,7 +33,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.pink,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const AuthWrapper(), // This widget determines where to go first
+      // Set SplashScreen as the initial home screen
+      home: const SplashScreen(), // This widget determines where to go first
+      debugShowCheckedModeBanner: false,
     );
   }
 }

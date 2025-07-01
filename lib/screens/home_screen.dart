@@ -595,7 +595,7 @@ class _HomeScreenState extends State<HomeScreen> {
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
         notchMargin: 8.0,
-        color: const Color(0xFFFFFFFF),  // Slightly transparent white
+        color: const Color(0xFFFFFFFF), // Slightly transparent white
         elevation: 10,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -604,6 +604,17 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: Icon(Icons.home, color: const Color(0xFF8A2BE2), size: 28), // Violet
               onPressed: () {
                 // Already on home screen, maybe scroll to top
+              },
+            ),
+            // ICON BUTTON FOR FOOD OPTIONS
+            IconButton(
+              icon: Icon(Icons.restaurant_menu, color: Colors.grey.shade600, size: 28), // Changed to a general food icon
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const FoodOptionsScreen(), // Navigate to the new FoodOptionsScreen
+                  ),
+                );
               },
             ),
             // Spacer for the FAB
@@ -616,17 +627,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   MaterialPageRoute(
                     builder: (context) => const SymptomSelectionScreen(),
                     settings: const RouteSettings(name: '/symptomSelection'), // <-- Replace with your MeditationScreen
-                  ),
-                );
-              },
-            ),
-            // NEW ICON BUTTON FOR PACKED FOOD SCANNER
-            IconButton(
-              icon: Icon(Icons.restaurant_menu, color: Colors.grey.shade600, size: 28), // Changed to a general food icon
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (context) => const FoodOptionsScreen(), // Navigate to the new FoodOptionsScreen
                   ),
                 );
               },

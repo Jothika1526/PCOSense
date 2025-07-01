@@ -4,6 +4,8 @@ import 'package:firebase_auth/firebase_auth.dart'; // Required for logout button
 import 'guide_list_screen.dart'; // Ensure this path is correct
 import 'package:pcos_app/screens/home_screen.dart'; // To navigate back to Home
 import 'package:pcos_app/screens/daily_log_screen.dart'; // Import for DailyLogScreen
+import 'package:pcos_app/packed_food/pack_foods_scan.dart'; // Import your food scanner screen
+import 'package:pcos_app/food_options/food_options_screen.dart';
 
 class SymptomSelectionScreen extends StatefulWidget {
   const SymptomSelectionScreen({super.key});
@@ -117,46 +119,7 @@ class _SymptomSelectionScreenState extends State<SymptomSelectionScreen> {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) => const DailyLogScreen(),
-            ),
-          );
-        },
-        tooltip: 'Log Data',
-        backgroundColor: Colors.transparent, // Make FAB background transparent
-        elevation: 0, // Remove default elevation
-        child: Material(
-          // Wrap Ink with Material
-          elevation: 8.0, // Add the shadow here (adjust value as needed)
-          borderRadius: BorderRadius.circular(50),
-          color: Colors.transparent, // Make Material background transparent so gradient shows
-          shadowColor: const Color(0xFF8A2BE2), // Set explicit shadow color to match FAB gradient
-          child: Ink(
-            decoration: BoxDecoration(
-              gradient: const LinearGradient(
-                colors: [Color(0xFFD3A4F4), Color(0xFF8A2BE2)], // Lighter to Darker Purple
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-              ),
-              borderRadius: BorderRadius.circular(50), // Make it perfectly round
-            ),
-            child: const Center(
-              child: Icon(
-                Icons.add,
-                color: Colors.white,
-                size: 36,
-              ),
-            ),
-          ),
-        ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        notchMargin: 8.0,
         color: const Color(0xFFFFFFFF), // Slightly transparent white
         elevation: 10,
         child: Row(
@@ -173,8 +136,17 @@ class _SymptomSelectionScreenState extends State<SymptomSelectionScreen> {
                 );
               },
             ),
-            // Spacer for the FAB
-            const SizedBox(width: 48),
+            IconButton(
+              icon: Icon(Icons.restaurant_menu, color: Colors.grey.shade600, size: 28), // Changed to a general food icon
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const FoodOptionsScreen(), // Navigate to the new FoodOptionsScreen
+                  ),
+                );
+              },
+            ),
+            // No Spacer needed as there's no FAB
             IconButton(
               // This screen's icon (Meditation/Symptom Selection) should be selected
               icon: Icon(Icons.self_improvement, color: colorScheme.primary, size: 28), // Highlighted in primary color

@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pcos_app/packed_food/pack_foods_scan.dart'; // Import your packed food screen
 import 'package:pcos_app/cooked_food/cooked_food_screen.dart'; // Import your cooked food screen
+import 'package:pcos_app/screens/home_screen.dart'; // To navigate back to Home
+import 'package:pcos_app/screens/daily_log_screen.dart'; // Import for DailyLogScreen
+import 'package:pcos_app/screens/symptom_selection_screen.dart'; // To navigate back to Symptom Selection
 
 class FoodOptionsScreen extends StatelessWidget {
   const FoodOptionsScreen({super.key});
@@ -57,7 +60,7 @@ class FoodOptionsScreen extends StatelessWidget {
                       ),
                     );
                   },
-                  color: Color(0xFF8EBF75), // Changed to a new color
+                  color: const Color(0xFF8EBF75), // Changed to a new color
                 ),
                 const SizedBox(height: 30),
                 _buildOptionCard(
@@ -77,6 +80,44 @@ class FoodOptionsScreen extends StatelessWidget {
               ],
             ),
           ),
+        ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        color: const Color(0xFFFFFFFF), // Changed to white
+        elevation: 10,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            IconButton(
+              icon: Icon(Icons.home, color: Colors.grey.shade600, size: 28), // Home icon unselected
+              onPressed: () {
+                Navigator.of(context).pushAndRemoveUntil(
+                  MaterialPageRoute(builder: (context) => const HomeScreen()),
+                      (Route<dynamic> route) => false,
+                );
+              },
+            ),
+            IconButton(
+              icon: Icon(Icons.restaurant_menu, color: Theme.of(context).colorScheme.primary, size: 28), // Changed to a general food icon (selected)
+              onPressed: () {
+                // Already on this screen, do nothing or provide feedback
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('You are already on the Food Options screen!')),
+                );
+              },
+            ),
+            // No Spacer needed as there's no FAB
+            IconButton(
+              icon: Icon(Icons.self_improvement, color: Colors.grey.shade600, size: 28), // Meditation/Symptom icon unselected
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const SymptomSelectionScreen(),
+                  ),
+                );
+              },
+            ),
+          ],
         ),
       ),
     );

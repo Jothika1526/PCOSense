@@ -117,17 +117,51 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 </div>
 
 ---
+---
 
-### AI-Powered Food Analysis Experience
+### AI-Powered Food Analysis
+
+#### Cooked Food Analysis
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <div style="text-align: center; flex: 1 1 48%;">
-    <img src="https://placehold.co/500x280/FFE0B2/EF6C00?text=Food+Scanning+UI+GIF/Image" alt="Food Scanning UI GIF/Image" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <img src="images/o1.jpg" alt="Cooked Meal Scan 1" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
     <br>
-    <i>Scan packaged foods or analyze cooked dishes for instant PCOS suitability.</i>
+    <i>Analyzing a home-cooked meal for PCOS suitability.</i>
+  </div>
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/o2.jpg" alt="Cooked Meal Scan 2" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Detailed breakdown of nutritional components.</i>
+  </div>
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/o3.jpg" alt="Cooked Meal Scan 2" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
   </div>
 </div>
 
+---
+
+#### Packed Food Analysis
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/f1.jpg" alt="Packed Food Scan 1" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Scanning the label of a packaged food item.</i>
+  </div>
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/f2.jpg" alt="Packed Food Scan 2" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+    <br>
+    <i>Instant analysis for potential dietary concerns.</i>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 20px;">
+  <div style="text-align: center; flex: 1 1 48%;">
+    <img src="images/f3.jpg" alt="Packed Food Scan 3" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;"/>
+  </div>
+</div>
 ---
 
 ### Interactive Self-Care with AI Pose Matching
@@ -162,13 +196,13 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 </p>
 
 <p align="center">
-  <img src="https://placehold.co/600x300/F0F4C3/AFB42B?text=Neo4j+Knowledge+Graph+Example" alt="Neo4j Knowledge Graph Example"/>
+  <img src="images/neo4j.jpg" alt="Neo4j Knowledge Graph Example"/>
   <br>
   <i>Neo4j knowledge graph structure for food insights.</i>
 </p>
 
 <p align="center">
-  <img src="https://placehold.co/600x300/E0F2F7/00838F?text=MongoDB+Atlas+Storage+Concept" alt="MongoDB Atlas Storage Concept"/>
+  <img src="images/mong.png" alt="MongoDB Atlas Storage Concept"/>
   <br>
   <i>Overview of image storage in MongoDB Atlas.</i>
 </p>

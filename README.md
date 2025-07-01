@@ -52,6 +52,14 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
 
 * With **real-time AI pose matching**, you receive instant feedback to maintain correct form and maximize health benefits.
 
+## 🏗️ Architecture Overview
+
+<p align="center">
+  <img src="images/PCOSense.png" alt="PCOSense Architecture Diagram"/>
+  <br>
+  <i>A high-level overview of the PCOSense application architecture.</i>
+</p>
+
 ## 📱 App Screenshots & Demos
 
 ### Initial App Flow
@@ -198,14 +206,6 @@ PCOSense is a mobile app revolutionizing PCOS management. We offer **AI-driven t
   <img src="images/mong.png" alt="MongoDB Atlas Storage Concept"/>
   <br>
   <i>Overview of image storage in MongoDB Atlas.</i>
-</p>
-
-## 🏗️ Architecture Overview
-
-<p align="center">
-  <img src="images/PCOSense.png" alt="PCOSense Architecture Diagram"/>
-  <br>
-  <i>A high-level overview of the PCOSense application architecture.</i>
 </p>
 
 ## 💻 Technology Stack
